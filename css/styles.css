@@ -3168,9 +3168,6 @@
   * {
     box-sizing: border-box;
 }
-html, body {
-    overflow-y:hidden
-}
 
  .s-header__menu-toggle {
      display: none;
@@ -5034,3 +5031,31 @@ html, body {
      display: none;
    }
    
+   /* Fixing scroll bar */
+   @media screen and (max-width: 767px) {
+    body {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+    
+    /* Style the content container to compensate for the padding */
+    .content {
+        /* Add padding to the bottom so content is not cut off */
+        padding-bottom: 17px; /* Adjust this value based on your design */
+    }
+}
+
+/* Webkit-based browsers (Chrome, Safari, newer Edge) */
+/* This style might not work in all situations */
+/* You might need to test and adjust as needed */
+body::-webkit-scrollbar {
+    width: 0px; /* Width of the invisible scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Color of the thumb */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent; /* Color of the track */
+}
