@@ -4758,6 +4758,14 @@
     object-fit: cover;
     border-radius: 8px;
 }
+.about-card-text{
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: top;
+}
 [type=radio] {
     display: none !important;
   }
@@ -4779,7 +4787,7 @@
     position: absolute;
     left: 0; right: 0;
     cursor: pointer;
-    transition: transform .8s ease;
+    transition: transform .5s ease;
   }
   
   #s1:checked ~ #slide4, #s2:checked ~ #slide5,
@@ -4827,14 +4835,15 @@
    justify-content: center;
    justify-items: center;
    width: 100%;
+   padding-bottom: 20px;
  }
  
  .cards {
    border-radius: .6rem;
    display: flex;
    flex-direction: column;
-   height: 500px;
-   width: 400px;
+   height: 50vh;
+   width: 80vw;
  }
    
  .cards-inner {
