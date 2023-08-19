@@ -3743,6 +3743,7 @@
      padding-top: calc(1 * var(--space));
      padding-bottom: var(--vspace-4);
      color: rgb(255, 255, 255);
+     height: 80vh;
  }
  
  
