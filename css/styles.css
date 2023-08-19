@@ -3165,6 +3165,13 @@
  /* ------------------------------------------------------------------- 
   * ## mobile menu toggle 
   * ------------------------------------------------------------------- */
+  * {
+    box-sizing: border-box;
+}
+html, body {
+    overflow-y:hidden
+}
+
  .s-header__menu-toggle {
      display: none;
      font-family: var(--font-1);
@@ -3879,6 +3886,7 @@
  .s-resume {
      padding-top: calc(5 * var(--space));
      padding-bottom: var(--vspace-4);
+     background-color: white;
  }
  
  .s-resume__section {
