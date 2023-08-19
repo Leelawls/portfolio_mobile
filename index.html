@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Porfolio Website</title>
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+</head>
+
+<body id="top" class="ss-preload">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul> 
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header --> 
+
+
+    <!-- hero
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+    ================================================== -->
+    <section id="hero" class="s-hero target-section ">
+
+        <div class="s-hero__bg rellax" data-rellax-speed="-12"></div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <div class="s-hero__content-about">
+                    <h1>Howdy</h1>
+
+                    <h3>
+                    My name is Li, I am an electrical engineer
+                    </h3>
+
+                    <div class="s-hero__content-social">
+                        <a href="https://www.instagram.com/li.lau1/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://github.com/LeeLawl?tab=repositories"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/in/li-lau"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+
+                </div> <!-- end s-hero__content-about -->
+
+            </div>
+        </div> <!-- s-hero__content -->
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div> <!-- s-hero__scroll -->
+
+    </section > <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        <div class="row">
+            <div class = "s-about-header">
+                <h1 class = "s-about-txt">About Me</h1>
+            </div>
+            <div class="slider-container swiper">
+                <div class="slider-content">
+                  <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <div class="card-image">
+                          <img src="images/TAMU.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <h2 class="name">Texas A&M Aggie </h2>
+                        <p class="description">
+                          A proud Texas A&M Aggie! Started my college journey in the fall of 2021 and I will graduate in the Fall of 2024. Texas A&M is more than just a campus, it's a home. 
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                          <img src="images/EE.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <h2 class="name">Electrical Engineering</h2>
+                        <p class="description">
+                          As an aspiring electrical engineer, it is my goal to learn more about the world
+                          and how we can improve it. IEEE PES member, I also anticipate in pursuing a M.S. in EE. 
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                          <img src="images/power.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <h2 class="name">Power Systems</h2>
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                          quas. Modi suscipit animi quas praesentium dolore excepturi,
+                          magnam ullam facilis!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                          <img src="images/cs.webp" alt="" />
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <h2 class="name">Software Design</h2>
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                          quas. Modi suscipit animi quas praesentium dolore excepturi,
+                          magnam ullam facilis!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                          <img src="images/energy.jpeg" alt="" />
+                        </div>
+                      </div>
+                      <div class="card-content">
+                        <h2 class="name">Energy Markets</h2>
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                          quas. Modi suscipit animi quas praesentium dolore excepturi,
+                          magnam ullam facilis!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div> -->
+                </div>  
+          
+              <!--swiper-->
+            <script src="swiper/swiper-bundle.min.js"></script>
+            <script src="js/script.js"></script>
+        </div> <!-- end row -->
+        
+    </section> <!-- end s-about -->
+
+    <!-- resume
+    ================================================== -->
+    <section id="resume" class="s-resume target-section">
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Education</h3>
+                <br>
+                <img class="s-about__pic" src="images/portfolio/tam-logo.png" alt="">
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Texas A&M University</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Bachelors in Electrical Engineering</span> 
+                            <span class="resume-block__header-date">
+                                Class 2024
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                    aut atque fuga dolorem. Vel vluptatibus fuiat nam. Impedit aperiam 
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> <!-- end education-block -->
+            </div>
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Research</h3>
+
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <p class="resume-block__header-meta">
+                            <span>Bachelors in Electrical Engineering</span> 
+                            <span class="resume-block__header-date">
+                                Class 2024
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                    aut atque fuga dolorem. Vel vluptatibus fuiat nam. Impedit aperiam 
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> 
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <p class="resume-block__header-meta">
+                            <span>Bachelors in Electrical Engineering</span> 
+                            <span class="resume-block__header-date">
+                                Class 2024
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                    aut atque fuga dolorem. Vel vluptatibus fuiat nam. Impedit aperiam 
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> 
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <p class="resume-block__header-meta">
+                            <span>Bachelors in Electrical Engineering</span> 
+                            <span class="resume-block__header-date">
+                                Class 2024
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                    aut atque fuga dolorem. Vel vluptatibus fuiat nam. Impedit aperiam 
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> 
+            </div>
+        </div>
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Career</h3>
+                <br>
+                <img class="s-about__pic" src="images/portfolio/ercotlogo.jpg" alt="">
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">ERCOT</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Market Operations Intern</span> 
+                            <span class="resume-block__header-date">
+                                May 2023 - Current
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> <!-- end resume-block -->
+            </div> <!-- end resume-block -->
+
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/portfolio/PlusPower.png" alt="">
+            </div>
+                <div class="column large-9 tab-12">
+                    <div class="resume-block">
+                        <div class="resume-block__header">
+                            <h4 class="h3">PlusPower</h4>
+                            <p class="resume-block__header-meta">
+                                <span>Market Analysis Intern</span> 
+                                <span class="resume-block__header-date">
+                                    May 2022 - August 2022
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                        aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
+                        nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                        </p>
+                </div>
+            </div>
+        </div> <!-- s-resume__section -->
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Leaderhship</h3>
+                <br>
+
+
+                <img class="s-about__pic" src="images/portfolio/sase.png" alt="">
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Society of Asian Scientists and Engineers</h4>
+                        <p class="resume-block__header-meta">
+                            <span>External Vice President</span> 
+                            <span class="resume-block__header-date">
+                                April 2023 - Current
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+                    <div class="resume-block">
+                        <div class="resume-block__header">
+                            <p class="resume-block__header-meta">
+                                <span>Internal Vice President </span> 
+                                <span class="resume-block__header-date">
+                                    April 2022 - April 2023
+                                </span>
+                            </p>
+                        </div>
+    
+                        <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
+                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
+                        aut atque fuga dolorem. Vel vluptatibus fuiat nam. Impedit aperiam 
+                        nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                        </p>
+    
+                    </div>
+
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Awards</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+                    <ul>
+                        <li>SASE Chevron Energy Company Scholarship: Spring 2023</li>
+                        <li>SASE Raytheon Technology: Spring 2023</li>
+                        <li>ERCOT Joe Weatherly Scholarship: Summer 2023</li>
+                        <li>GCPA Scholarship: Fall 2023</li>
+                    </ul>
+                </div> <!-- end resume-block -->
+
+            </div>
+        </div> <!-- s-resume__section -->
+        
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Awards</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+                    <ul>
+                        <li>SASE Chevron Energy Company Scholarship: Spring 2023</li>
+                        <li>SASE Raytheon Technology: Spring 2023</li>
+                        <li>ERCOT Joe Weatherly Scholarship: Summer 2023</li>
+                        <li>GCPA Scholarship: Fall 2023</li>
+                    </ul>
+                </div> <!-- end resume-block -->
+
+            </div>
+        </div> <!-- s-resume__section -->
+        
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12"> 
+                <h3 class="section-header-allcaps">Software</h3>
+            </div>
+            <div class="large-9 tab-12">
+              <div class="resume-pic_block">
+                  <div class="carousel-container">
+                    <div class="inner-carousel">
+                      <div class="track">
+                        <div class="s-card-container">
+                          <div class="s-card s-card1"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card2"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card3"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card4"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card5"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card6"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card7"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card8"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card9"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card10"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card11"></div>
+                        </div>
+                        <div class="s-card-container">
+                          <div class="s-card s-card12"></div>
+                        </div>
+                      </div>
+                      <div class="nav">
+                        <button class="prev"><i class="fas fa-arrow-left fa-2x"></i></button>
+                        <button class="next"><i class="fas fa-arrow-right fa-2x"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                    <script src="js/carousel.js"></script>
+                
+                <!-- <div class="container">
+                    <div class="box"><img src="images/portfolio/Aurora.png" alt="" /></div>
+                    <div class="box"><img src="images/portfolio/powerworld.png" alt="" /></div>
+                    <div class="box"><img src="images/portfolio/ltspice.jpg" alt="" /></div>
+                    <div class="box"><img src="images/portfolio/multisim.jpeg" alt="" /></div>
+                    <div class="box"><img src="images/portfolio/verilog.png" alt="" /></div>
+                    <div class="box"><img src="images/portfolio/blender.png" alt="" /></div>
+                  </div> -->
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+          
+    </section> <!-- end s-resume -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row">
+            <div class = "s-about-header">
+                <h1 class = "s-project-txt">Projects</h1>
+            </br>
+            </div>
+            <div class="l-cards">
+                <div class = "cards">
+                    <div class="cards-inner">
+                        <div class="cards-front">
+                            <img class = "blurred-img" src="images/portfolio/website.png" alt="" />
+                            <div class = "c-text">
+                                <p>Personal Website</p>
+                            </div>
+                        </div>
+                        <div class="cards-back">
+                          <p>Back Side</p>
+                        </div>
+                      </div>
+                </div>
+                <div class = "cards">
+                    <div class="cards-inner">
+                        <div class="cards-front">
+                            <img class = "blurred-img" src="images/portfolio/dashboard.png" alt="" />
+                            <div class = "c-text">
+                                <p>Markets Dashboard</p>
+                            </div>
+                        </div>
+                        <div class="cards-back">
+                          <p>Back Side</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-portfolio -->
+    <div class = "spacer layer2"></div>
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row s-contact__header">
+            <div>
+                <h3 class="section-header-allcaps">Contacts</h3>
+            </div>
+        </div>
+        <div class="row s-contact__header">
+            <div class = "normal-text ">
+                <p>Phone: 281-817-1118</p>
+                <p>Email: laulishuo@gmail.com</p>
+                <p>College Station Tx, 77840</p> 
+            </div>
+        </div> 
+
+
+    </section> <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <li><a href="https://github.com/LeeLawl?tab=repositories"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/li.lau1/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="linkedin.com/in/li-lau"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>Disclaimer: CSS/JS from styleshout, template modified.</span> 
+                <span>Design by Li Lau </a></span>
+            </div>
+        </div> 
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+             </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
