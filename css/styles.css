@@ -3706,7 +3706,7 @@
  .s-about-txt{
      color: white;
      vertical-align: top;
-     padding-top: 10px;
+     padding-top: 0px;
      padding-bottom: 20px;
      margin: 0px;
  }
@@ -4751,12 +4751,13 @@
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
+    margin: 20px;
   }
   
   #slider label {
     margin: auto;
-    width: 30%;
-    height: 80%;
+    width: 90%;
+    height: 250px;
     border-radius: 4px;
     position: absolute;
     left: 0; right: 0;
