@@ -3962,6 +3962,7 @@
  .s-portfolio {
      background-color: var(--color-gray-1);
      padding-top: calc(3 * var(--space));
+     padding-bottom: calc(3 * var(--space));
  
  }
  
@@ -4413,6 +4414,7 @@
      color: var(--color-gray-10);
      line-height: .3;
      margin-top: 0;
+     text-align: left;
  
  }
  
@@ -5016,3 +5018,4 @@ body::-webkit-scrollbar-track {
     background-color: transparent; /* Color of the track */
 }
 
+/* Waves */
