@@ -4907,17 +4907,17 @@
      font-weight: 200;
  }
  
-   .cards-back {
-     background-color: #d6e3ff;
-     color: #fff;
-     display: flex;
-     align-items: center;
-     border: 10px solid #d6e3ff;
-     border-radius: 10px;
-     justify-content: center;
-     font-size: 24px;
-     transform: rotateY(180deg);
-   }
+ .cards-back {
+    background-color: #8bb0ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid  #8bb0ff;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(180deg);
+  }
  /* Skills Carosel */
  
  
